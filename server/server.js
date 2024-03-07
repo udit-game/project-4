@@ -31,7 +31,7 @@ app.use(express.json({limit: '10mb'}));
 
 const connectDB = asyncHandler(async () => {
     try {
-        await mongoose.connect("mongodb://127.0.0.1:27017/project4");
+        await mongoose.connect("mongodb://127.0.0.1:27017/project3");
         console.log("database successfully connected");
     } catch (e) {
         console.log(e)

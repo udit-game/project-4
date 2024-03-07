@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route exact path="/" element={isAuthenticated && user ? <LandingPage /> : <LandingPage />} />
+        <Route exact path="/" element={isAuthenticated && user ? <LandingPage /> : <Login />} />
         <Route exact path="/login" element={isAuthenticated && user ?<Login /> : <Login />} />
         <Route exact path="/signup" element={isAuthenticated && user ?<Signup /> : <Signup />} />
       </Routes>
