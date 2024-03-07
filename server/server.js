@@ -8,6 +8,8 @@ const multer = require('multer');
 const axios = require('axios');
 const FormData = require('form-data');
 const fs = require('fs');
+const User = require('./models/userModel');
+
 
 
 const app = express();
