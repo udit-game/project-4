@@ -36,14 +36,13 @@ const LandingPage = () => {
       <div className="overlay">
         <div className="overlay__inner">
           <h1 className="overlay__title">
-            <span className="text-gradient">Revolutionize Dining</span>: Accurate
-            <span className="text-gradient"> Deep Learning </span>
-            Tool Identifies Dishes for Culinary Enthusiasts and Professionals.
-
+            <span className="text-gradient">Revolutionize Healthcare</span>: Cutting-edge
+            <span className="text-gradient"> AI System </span>
+            Deciphers Health Reports, Providing Precise Diagnoses and Insights for Individuals and Medical Professionals.
           </h1>
           <p className="overlay__description">
-            Discover dishes from diverse cuisines worldwide, accompanied by expertly curated recipes. Whether you're a seasoned chef or a passionate home cook, our community shares their culinary expertise to enhance your cooking experience. Explore, learn, and create delightful meals with us!
-            <strong> From kitchens around the world to yours, discover, cook, and savor every flavorful journey.</strong>
+            Dive into the intricacies of your health with our AI-driven platform. Receive comprehensive analyses of your health reports, empowering you and your healthcare provider with detailed diagnoses and actionable insights. From identifying potential concerns to highlighting areas for improvement, our technology revolutionizes the way you understand and manage your well-being.
+            <strong> Explore, learn, and embark on a journey towards optimal health with us.</strong>
           </p>
           <div className="overlay__btns">
             <button className="overlay__btn overlay__btn--transparent">

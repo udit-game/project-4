@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Carousel.css'
+import reportimg from '../images/reportimg.png';
+import askquestions from '../images/askquestions.png';
+import remedies from '../images/remedies.png';
+import livewell from '../images/livewell.png';
 
 const Carousel = () => {
   const [currentImage, setCurrentImage] = useState(1);
@@ -22,7 +26,7 @@ const Carousel = () => {
       top: "25%"
     }}>
       <img
-          src={"https://pngfre.com/wp-content/uploads/Burger-43-300x283.png"}
+          src={reportimg}
         alt="Image 1"
         style={{
           position: 'absolute',
@@ -35,7 +39,7 @@ const Carousel = () => {
         }}
       />
       <img
-          src={"https://static.vecteezy.com/system/resources/previews/019/613/640/original/pizza-graphic-clipart-design-free-png.png"}
+          src={askquestions}
         alt="Image 2"
         style={{
           position: 'absolute',
@@ -48,7 +52,7 @@ const Carousel = () => {
         }}
       />
       <img
-          src={"https://pngimg.com/uploads/sushi/sushi_PNG98863.png"}
+          src={remedies}
         alt="Image 3"
         style={{
           position: 'absolute',
@@ -61,7 +65,7 @@ const Carousel = () => {
         }}
       />
       <img
-          src={"https://pngimg.com/uploads/donut/donut_PNG28.png"}
+          src={livewell}
         alt="Image 4"
         style={{
           position: 'absolute',

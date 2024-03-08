@@ -56,14 +56,14 @@ function Navbar() {
       const hue = ~~random(220, 360);
       const complimentaryHue1 = hue + 30;
       const complimentaryHue2 = hue + 60;
-      document.documentElement.style.setProperty("--hue", hue);
-      document.documentElement.style.setProperty("--hue-complimentary1", complimentaryHue1);
+      document.documentElement.style.setProperty("--hue-complimentary1", hue);
       document.documentElement.style.setProperty("--hue-complimentary2", complimentaryHue2);
+      document.documentElement.style.setProperty("--hue", complimentaryHue1);
     };
 
     const setCustomProperties = () => {
       document.documentElement.style.setProperty("--font-family", "Poppins, system-ui");
-      document.documentElement.style.setProperty("--bg-gradient", "linear-gradient(to bottom, hsl(var(--hue), 95%, 99%), hsl(var(--hue), 95%, 84%))");
+      document.documentElement.style.setProperty("--bg-gradient", "linear-gradient(to top, hsl(var(--hue), 95%, 99%), hsl(var(--hue), 95%, 84%))");
     };
 
     setColors()

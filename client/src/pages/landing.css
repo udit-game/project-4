@@ -28,11 +28,12 @@ landing {
   font-family: var(--font-family);
   color: var(--dark-color);
   background: linear-gradient(
-    to bottom,
+    to top,
     hsl(var(--hue), 95%, 99%),
     hsl(var(--hue), 95%, 84%)
   );
 }
+
 
 .orb-canvas {
   position: fixed;

@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Signup from "./pages/signup";
 import LandingPage from "./pages/landing";
 import {useAuth} from "./Context/Context";
+import health from "./images/health.png";
 
 function App() {
   const { user, checktoken, setUser } = useAuth();
@@ -17,6 +18,7 @@ function App() {
   return (
 <Router>
     <div className="App">
+      <img className="plusSign" src={health}/>
       <Navbar />
       <Routes>
         <Route exact path="/" element={isAuthenticated && user ? <LandingPage /> : <Login />} />
